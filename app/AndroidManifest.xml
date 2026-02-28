@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fake_product"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.fake_product.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.fake_product.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.fake_product.Retailor"
+            android:label="@string/title_activity_retailor" >
+        </activity>
+        <activity
+            android:name="com.example.fake_product.Distributor"
+            android:label="@string/title_activity_distributor" >
+        </activity>
+        <activity
+            android:name="com.example.fake_product.User"
+            android:label="@string/title_activity_user" >
+        </activity>
+        <activity
+            android:name="com.example.fake_product.Retailor_Reg"
+            android:label="@string/title_activity_retailor__reg" >
+        </activity>
+        <activity
+            android:name="com.example.fake_product.D_reg"
+            android:label="@string/title_activity_d_reg" >
+        </activity>
+        <activity
+            android:name="com.example.fake_product.RetailorHome"
+            android:label="@string/title_activity_retailor_home" >
+        </activity>
+        <activity
+            android:name="com.example.fake_product.Dhome"
+            android:label="@string/title_activity_dhome" >
+        </activity>
+        <activity
+            android:name="com.example.fake_product.Qrscan"
+            android:label="@string/title_activity_qrscan" >
+        </activity>
+        <activity
+            android:name="com.example.fake_product.Product"
+            android:label="@string/title_activity_product" >
+        </activity>
+        <activity
+            android:name="com.example.fake_product.Ownership"
+            android:label="@string/title_activity_ownership" >
+        </activity>
+        <activity
+            android:name="com.example.fake_product.RDhome"
+            android:label="@string/title_activity_rdhome" >
+        </activity>
+        <activity
+            android:name="com.example.fake_product.Scanhistroy"
+            android:label="@string/title_activity_scanhistroy" >
+        </activity>
+        <activity
+            android:name="com.example.fake_product.Histroy"
+            android:label="@string/title_activity_histroy" >
+        </activity>
+        <activity
+            android:name="com.example.fake_product.Userreg"
+            android:label="@string/title_activity_userreg" >
+        </activity>
+        <activity
+            android:name="com.example.fake_product.Uhome"
+            android:label="@string/title_activity_uhome" >
+        </activity>
+        <activity
+            android:name="com.example.fake_product.Verfication"
+            android:label="@string/title_activity_verfication" >
+        </activity>
+    </application>
+
+</manifest>

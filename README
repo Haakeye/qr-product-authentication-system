@@ -1,0 +1,38 @@
+# Fake Product Detection using Blockchain & Machine Learning
+
+## Overview
+This project identifies counterfeit products using machine learning and blockchain verification.
+
+## Architecture
+- Android App (User Interface)
+- Backend API (ML model)
+- Blockchain (Product validation)
+
+## Features
+- Product authenticity check
+- QR/ID verification
+- ML classification
+- Blockchain integration
+
+## Tech Stack
+- Python
+- Flask / FastAPI
+- Android (Java/Kotlin)
+- Blockchain
+
+## Project Structure
+app/        -> Android Application  
+backend/    -> ML and API  
+docs/       -> Documentation  
+
+## How to Run
+
+### Backend
+pip install -r requirements.txt  
+python app.py  
+
+### Android
+Open in Android Studio
+
+## Author
+Haarish Kumar

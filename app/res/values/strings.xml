@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fake_product</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_retailor">Retailor</string>
+    <string name="title_activity_distributor">Distributor</string>
+    <string name="title_activity_user">User</string>
+    <string name="title_activity_retailor__reg">Retailor_Reg</string>
+    <string name="title_activity_d_reg">D_reg</string>
+    <string name="title_activity_retailor_home">RetailorHome</string>
+    <string name="title_activity_dhome">Dhome</string>
+    <string name="title_activity_qrscan">Qrscan</string>
+    <string name="title_activity_product">Product</string>
+    <string name="title_activity_ownership">Ownership</string>
+    <string name="title_activity_rdhome">RDhome</string>
+    <string name="title_activity_scanhistroy">Scanhistroy</string>
+    <string name="title_activity_histroy">Histroy</string>
+    <string name="title_activity_userreg">Userreg</string>
+    <string name="title_activity_uhome">Uhome</string>
+    <string name="title_activity_verfication">Verfication</string>
+
+</resources>
